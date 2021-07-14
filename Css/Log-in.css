@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root {
+    --bg-primary: #BCF3ED;
+    --bg-secundary: #403140;
+    --bg-third: white;
+    --primary-font: 'Roboto', sans-serif;
+    --color-primary: #3C8893;
+    --box-shadow: 0px 3px 0px #B3B9B5;
+}
+
+body {
+    background: var(--bg-primary);
+}
+/* Header */
+.header {
+    position: absolute;
+    width: 256px;
+    height: 888px;
+    padding: 10px;
+    background: var(--bg-secundary);
+}
+/* Figure Container */
+.header__figure {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* Image of Perfil, Nebrazka Rodriguez */
+.figure__Image {
+    cursor: pointer;
+}
+/* Figure paragraph */
+.figure__p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    padding-left: 8px;
+}
+/* Header Span */
+.header__span {
+    width: 100%;
+    margin-top: 38px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* Span container */
+.span__container {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+/* Span containers logos */
+.container__image {
+    cursor: pointer;
+}
+/* Container link */ 
+.container__link {
+    text-decoration: none;
+}
+/* Span containers texts */
+.container__p {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Span figure */
+.span__figure {
+    width: 150px;
+    height: 40px;
+    margin-top: 296px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Span figure logo exit */
+.figure__img {
+    cursor: pointer;
+}
+/* Span figure text */
+.figure__text {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Main */
+.main {
+    width: 100%;
+}
+/* Main article */
+.main__article {
+    width: 45%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/* Search logo */
+.search__main {
+    transform: translate(35px, 13px);
+}
+/* Input search */
+.icono-placeholder__main{
+    margin-top: 24px;
+    width: 500px;
+    height: 40px;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+/* Input search placheholder */
+.icono-placeholder__main::placeholder {
+    color: var(--color-primary);
+    padding-left: 33px;
+    font-family: var(--primary-font);
+}
+
+/* Main article cars */
+.main-article {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-left: 29%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* Links redirection */
+.article__link {
+    height: 223px;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+/* Container cars */
+.article__figure {
+    width: 260px;
+    height: 220px;
+    background: var(--bg-third);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Play logo images */
+.figure__Play__logo {
+    transform: translate(0px, 47px);
+    position: absolute;
+    cursor: pointer;
+}
+/* Images */
+.figure__image {
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* Titles of cars */
+.container__title {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    text-align: left;
+    color: var(--color-primary);
+}
+/* Text of cars */
+.container__text {
+    padding-top: 8px;
+    padding-right: 53px;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: var(--primary-font);
+    color:  var(--color-primary);
+
+}
+/* Container text, Welcome to Mexico */
+.figure-Mexico__container {
+    padding-top: 8px;
+    padding-right: 62px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Mexico */
+.figure-mexiconumber__logo {
+    transform: translate(103px, 175px);
+    position: absolute;
+}
+/* Eye logo, Mexico */
+.figure-mexicoeye__logo {
+    cursor: pointer;
+    transform: translate(75px, 170px);
+    position: absolute;
+}
+
+.icono-placeholder__main::placeholder {
+    padding-left: 33px;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+}
+
+.search__main {
+    transform: translate(35px, 13px);
+}
+/* Container text, At the street Japan*/
+.figure-japan__container {
+    padding-top: 8px;
+    padding-right: 58px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, At the street Japan */
+.figure-japannumber__logo {
+    transform: translate(112px, 175px);
+    position: absolute;
+}
+/* Eye logo, At the street Japan */ 
+.figure-japaneye__logo {
+    cursor: pointer;
+    transform: translate(90px, 170px);
+    position: absolute;
+}
+/* Container text, Firefighters save the school */
+.figure-fire__container {
+    padding-top: 8px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Firefighters */
+.figure-fireNumber__logo {
+    transform: translate(110px, 174px);
+    position: absolute;
+}
+/* Eye logo, Firefighters */
+.figure-fireeye__logo {
+    cursor: pointer;
+    transform: translate(88px, 170px);
+    position: absolute;
+}
+/* Container text, Know us tonight */
+.figure-know__container {
+    padding-top: 8px;
+    padding-right: 57px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Know us tonight */
+.figure-knownumber__logo {
+    transform: translate(103px, 175px);
+    position: absolute;
+}
+/* Eye logo, know us tonight */
+.figure-knoweye__logo {
+    cursor: pointer;
+    transform: translate(75px, 170px);
+    position: absolute;
+}
+/* Container text, Colombian sausages */
+.figure-colombia__container {
+    padding-top: 8px;
+    padding-right: 57px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Colombian sausages */
+.figure-colombianumber__logo {
+    transform: translate(103px, 175px);
+    position: absolute;
+}
+/*Eye logo, Colombian sausages */
+.figure-colombiaeye__logo {
+    cursor: pointer;
+    transform: translate(70px, 170px);
+    position: absolute;
+}
+/* Container text, Meet boon Alemania */
+.figure-meet__container {
+    padding-top: 8px;
+    padding-right: 62px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Meet boon Alemania */
+.figure-meetnumber__logo {
+    transform: translate(112px, 175px);
+    position: absolute;
+}
+/* Eye logo, Meet boon Alemania */
+.figure-meeteye__logo {
+    cursor: pointer;
+    transform: translate(90px, 170px);
+    position: absolute;
+}
+/* Container text, Yuki in Japan */
+.figure-yuki__container {
+    padding-top: 8px;
+    padding-right: 70px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Yuki in Japan */
+.figure-yukinumber__logo {
+    transform: translate(103px, 175px);
+    position: absolute;
+}
+/* Eye logo, Yuki in Japan */
+.figure-yukieye__logo {
+    cursor: pointer;
+    transform: translate(75px, 170px);
+    position: absolute;
+}
+/*End of page*/
+.footer {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__text {
+    padding-left: 222px;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: var(--primary-font);
+}

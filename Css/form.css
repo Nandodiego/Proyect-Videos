@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root {
+    --bg-primary: #BCF3ED;
+    --bg-secundary: #403140;
+    --bg-third: #3C8893;
+    --primary-font: 'Roboto', sans-serif;
+    --color-primary: #3C8893;
+    --border-color: 1px solid #3C8893;
+}
+
+body {
+    background: var(--bg-primary);
+}
+/* logo create accound */
+.header {
+    transform: translate(1516px, 28px);
+    width: 32px;
+}
+/* Main container */
+.form-register {
+    width: 440px;
+    padding: 30px;
+    border-radius: 8px;
+    font-family:  var(--primary-font);
+    color: var(--color-primary);
+    background: var(--bg-secundary);
+    margin: 0 auto;
+    margin-top: 150px;
+}
+/* Container inputs */
+.register__container {
+    margin-top: 30px;
+    border: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* Title */
+.register__tittle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: var(--primary-font);
+}
+/* Labels titles */
+.register__container__label {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+    font-family: var(--primary-font);
+}
+/* Inputs */
+.register__container__controls {
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 8px;
+    border: var(--border-color);
+    border-radius: 6px;
+    background: var(--bg-secundary);
+}
+/* Inputs text */
+.register__container__controls::placeholder {
+    color: var(--color-primary);
+    font-size: 18px;
+    line-height: 28px;
+}
+/* Link Input button */
+.register__container__link {
+    width: 100%;
+}
+/* Input buttom */
+.register__container__buttom {
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: var(--bg-third);
+    padding: 8px;
+    font-family: var(--primary-font);
+}
+/* End of page */
+.footer {
+    width: 100%;
+    margin-top: 150px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 12px;
+    font-weight: 200;
+    font-family: var(--primary-font);
+}

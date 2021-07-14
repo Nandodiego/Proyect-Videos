@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root {
+    --bg-primary: #BCF3ED;
+    --bg-secundary: #403140;
+    --bg-third: white;
+    --primary-font: 'Roboto', sans-serif;
+    --color-primary: #3C8893;
+    --box-shadow: 0px 3px 0px #B3B9B5;
+}
+
+body {
+    background: var(--bg-primary);
+}
+/* Header */
+.header {
+    position: absolute;
+    width: 256px;
+    height: 930px;
+    padding: 10px;
+    background: var(--bg-secundary);
+}
+/* Figure Container */
+.header__figure {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* Image of Perfil, Nebrazka Rodriguez */
+.figure__Image {
+    cursor: pointer;
+}
+/* Figure paragraph */
+.figure__p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    padding-left: 8px;
+}
+/* Header Span */
+.header__span {
+    width: 100%;
+    margin-top: 38px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* Span container */
+.span__container {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+/* Span containers logos */
+.container__image {
+    cursor: pointer;
+}
+/* Container link */ 
+.container__link {
+    text-decoration: none;
+}
+/* Span containers texts */
+.container__p {
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Span figure */
+.span__figure {
+    width: 150px;
+    height: 40px;
+    margin-top: 338px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Span figure logo exit */
+.figure__img {
+    cursor: pointer;
+}
+/* Span figure text */
+.figure__text {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Article */
+.main__article {
+    width: 84%;
+    margin: 0 auto;
+    margin-left: 16%;
+    padding-top: 24px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* Container cars */
+.article__figure {
+    width: 841px;
+    height: 480px;
+    margin-bottom: 25px;
+    background: var(--bg-third);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Play logo images */
+.figure__Play__logo {
+    transform: translate(0px, 140px);
+    position: absolute;
+    cursor: pointer;
+}
+/* Images */
+.figure__image {
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* Titles of cars */
+.container__title {
+    font-size: 22px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    text-align: left;
+    color: var(--color-primary);
+}
+/* Text of cars */
+.container__text {
+    padding-top: 8px;
+    padding-right: 53px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+
+}
+/* Container text, Meet boon Alemania */
+.figure-meet__container {
+    padding-top: 8px;
+    padding-right: 575px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Number logo, Meet boon Alemania */
+.figure-meetnumber__logo {
+    width: 21px;
+    transform: translate(395px, 430px);
+    position: absolute;
+}
+/* Eye logo, Meet boon Alemania */
+.figure-meeteye__logo {
+    width: 23px;
+    cursor: pointer;
+    transform: translate(365px, 427px);
+    position: absolute;
+}
+/* Heart logo, Meet boon Alemania */
+.figure-meetheart__logo {
+    transform: translate(285px ,430px);
+    position: absolute;
+    cursor: pointer;
+}
+/* Dislike logo, Meet boon Alemania */
+.figure-meetdislike__logo {
+    transform: translate(325px,429px);
+    position: absolute;
+    cursor: pointer;
+}
+/* Secondary article */
+.article-figure {
+    width: 100%;
+    padding-left: 245px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Containers of Coments */
+.figure-container {
+    width: 500px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Main comment image */
+.container-image {
+    cursor: pointer;
+    padding-left: 8px;
+}
+/* Container secondary of comments*/
+.figure__container {
+    width: 100%;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Comments images */
+.container__img {
+    cursor: pointer;
+    padding-left: 8px;
+}
+/* End of page */
+.footer {
+    width: 100%;
+    margin-top: 44px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__text {
+    padding-left: 222px;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: var(--primary-font);
+}
