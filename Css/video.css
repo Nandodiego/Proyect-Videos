@@ -1,4 +1,4 @@
-* {
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,13 +14,17 @@
 }
 
 body {
+    width: 100%;
     background: var(--bg-primary);
+
+    display: flex;
+    flex-direction: row;
 }
+
 /* Header */
 .header {
-    position: absolute;
-    width: 256px;
-    height: 930px;
+    width: 16%;
+
     padding: 10px;
     background: var(--bg-secundary);
 }
@@ -37,7 +41,7 @@ body {
 .figure__Image {
     cursor: pointer;
 }
-/* Figure paragraph */
+/* Figure text */
 .figure__p {
     font-size: 16px;
     font-weight: 500;
@@ -45,27 +49,26 @@ body {
     color: var(--color-primary);
     padding-left: 8px;
 }
-/* Header Span */
-.header__span {
+/* Header nav */
+.header__nav {
     width: 100%;
-    margin-top: 38px;
+    margin-top: 16%;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-/* Span container */
-.span__container {
-    width: 150px;
-    height: 40px;
-    margin-bottom: 20px;
+/* Nav container */
+.nav__container {
+    width: 60%;
+    margin-bottom: 10%;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     
 }
-/* Span containers logos */
+/* containers logos */
 .container__image {
     cursor: pointer;
 }
@@ -73,10 +76,8 @@ body {
 .container__link {
     text-decoration: none;
 }
-/* Span containers texts */
-.container__p {
-    cursor: pointer;
-    height: 40px;
+/* texts of logos */
+.link__p {
     line-height: 40px;
     padding-left: 10px;
     font-size: 16px;
@@ -84,23 +85,17 @@ body {
     color: var(--color-primary);
     font-family: var(--primary-font);
 }
-/* Span figure */
-.span__figure {
-    width: 150px;
-    height: 40px;
-    margin-top: 338px;
+/* Container of log out */
+.nav-container {
+    width: 60%;
+    margin-top: 379px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-/* Span figure logo exit */
-.figure__img {
-    cursor: pointer;
-}
-/* Span figure text */
-.figure__text {
-    height: 40px;
+/* Text of log out */
+.link__text {
     line-height: 40px;
     padding-left: 10px;
     font-size: 16px;
@@ -108,136 +103,157 @@ body {
     color: var(--color-primary);
     font-family: var(--primary-font);
 }
-/* Article */
-.main__article {
-    width: 84%;
+/* Main */
+.main {
+  width: 84%;
+}
+/* Main article cards */
+.main-article {
+    width: 72%;
     margin: 0 auto;
-    margin-left: 16%;
-    padding-top: 24px;
+    margin-top: 2%;
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-/* Container cars */
-.article__figure {
-    width: 841px;
-    height: 480px;
-    margin-bottom: 25px;
+/* Container cards */
+.main__figure {
+    width: 63%;
+    height: 52%;
     background: var(--bg-third);
     border-radius: 8px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/* Play logo images */
-.figure__Play__logo {
-    transform: translate(0px, 140px);
-    position: absolute;
-    cursor: pointer;
-}
-/* Images */
-.figure__image {
-    margin-top: 10px;
-    cursor: pointer;
-}
-/* Titles of cars */
-.container__title {
-    font-size: 22px;
-    font-family: var(--primary-font);
-    font-weight: 600;
-    text-align: left;
-    color: var(--color-primary);
-}
-/* Text of cars */
-.container__text {
-    padding-top: 8px;
-    padding-right: 53px;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: var(--primary-font);
-    color: var(--color-primary);
-
-}
-/* Container text, Meet boon Alemania */
-.figure-meet__container {
-    padding-top: 8px;
-    padding-right: 575px;
+    margin: 0 auto;
+    margin-top: 2%;
 
     display: flex;
     flex-direction: column;
 }
-/* Number logo, Meet boon Alemania */
-.figure-meetnumber__logo {
-    width: 21px;
-    transform: translate(395px, 430px);
-    position: absolute;
-}
-/* Eye logo, Meet boon Alemania */
-.figure-meeteye__logo {
-    width: 23px;
-    cursor: pointer;
-    transform: translate(365px, 427px);
-    position: absolute;
-}
-/* Heart logo, Meet boon Alemania */
-.figure-meetheart__logo {
-    transform: translate(285px ,430px);
-    position: absolute;
-    cursor: pointer;
-}
-/* Dislike logo, Meet boon Alemania */
-.figure-meetdislike__logo {
-    transform: translate(325px,429px);
-    position: absolute;
-    cursor: pointer;
-}
-/* Secondary article */
-.article-figure {
-    width: 100%;
-    padding-left: 245px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Containers of Coments */
-.figure-container {
-    width: 500px;
-    height: 80px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    background: white;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-/* Main comment image */
-.container-image {
-    cursor: pointer;
-    padding-left: 8px;
-}
-/* Container secondary of comments*/
+/* Container of play and image */
 .figure__container {
+    margin: 0 auto;
+    margin-top: 1%;
+}
+/* Links redirection */
+.container-link {
+    width: 52%;
+    height: 52%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+/* Play logo */
+.link__image-play {
+    cursor: pointer;
+}
+/* Images of content */
+.container__img {
     width: 100%;
-    margin-bottom: 10px;
+}
+/* Container of titles, eyes and numbers */
+.figure-container{
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Title of cards */
+.container-figcaption {
+    font-size: 24px;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    font-weight: 700;
+}
+/* Container of eyes and numbers */
+.container__div {
+    width: 16%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* logos heart, dislike */
+.div__logo {
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
+}
+/* Eye logo */
+.div__logo-eye {
+    width: 25px;
+    height: 23px;
+}
+
+/* Numbers */
+.div__text {
+    font-size: 17px;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    margin-left: 4px;
+}
+/* Description on cards */
+.container__figcaption {
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 14px;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--color-primary);
+}
+/* Article */
+.main__article {
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 2%;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Container of main comment */
+.article__container {
+    width: 60%;
+    height: 80px;
+    border-radius: 8px;
+    background: var(--bg-third);
 
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-/* Comments images */
-.container__img {
+/* Images of comments */
+.div__image {
     cursor: pointer;
-    padding-left: 8px;
+    padding-left: 2%;
 }
+/* Text of comments */
+.div-text {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: var(--primary-font);
+    padding-left: 2%;
+}
+/* Container of secundarys comments */
+.article-container {
+    width: 600px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* End of page */
-.footer {
+.main__footer {
     width: 100%;
-    margin-top: 44px;
-    padding: 20px;
+    margin-top: 4%;
 
     display: flex;
     flex-direction: row;
@@ -245,7 +261,6 @@ body {
 }
 
 .footer__text {
-    padding-left: 222px;
     font-size: 12px;
     font-weight: 200;
     font-family: var(--primary-font);

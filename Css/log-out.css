@@ -23,9 +23,15 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-
+/* Login logo */
 .header__span {
-    transform: translate(1000px, 28px);
+    width: 32%;
+    position: absolute;
+    margin-top: 1%;
+    transform: translate(100%, 26%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 /* Input search */
 .icono-placeholder__header{
@@ -48,197 +54,104 @@ body {
 .search__header {
     transform: translate(35px, 13px);
 }
+/* Main */
+.main {
+    width: 100%;
+}
 /* Article */
-.article {
-    width: 72%;
+.main__article {
+    width: 85%;
     margin: 0 auto;
-    margin-top: 24px;
+    margin-top: 2%;
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
-/* Container cars */
+/* Container cards */
 .article__figure {
-    width: 260px;
-    height: 220px;
-    margin-bottom: 25px;
+    width: 22%;
+    height: 254px;
     background: var(--bg-secondary);
     border-radius: 8px;
     box-shadow: var(--box-shadow);
+    margin-bottom: 3%;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-/* Play logo images */
-.figure__Play__logo {
-    transform: translate(0px, 47px);
-    position: absolute;
-    cursor: pointer;
-}
-/* Images */
-.figure__image {
+/* Container of play and image */
+.figure__container {
+    margin: 0 auto;
     margin-top: 10px;
-    cursor: pointer;
 }
-/* Titles of cars */
-.container__title {
+/* Links redirection */
+.container-link {
+    text-decoration: none;
+}
+/* Play logo */
+.link__image-play {
+    padding-left: 10px;
+    position: absolute;
+    transform: translate(100%, 50%);
+}
+/* Images of content */
+.container-image {
+    width: 275px;
+    margin-top: 5px;
+}
+/* Container of titles, eyes and numbers */
+.figure-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Title of cards */
+.container-figcaption {
     font-size: 16px;
     font-family: var(--primary-font);
-    font-weight: 600;
-    text-align: left;
     color: var(--color-primary);
+    font-weight: 700;
 }
-/* Text of cars */
-.container__text {
-    padding-top: 8px;
-    padding-right: 53px;
+/* Container of eyes and numbers */
+.container__div {
+    width: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Eyes logos */
+.div__logo {
+    cursor: pointer;
+}
+/* Numbers */
+.div__text {
+    font-size: 11px;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-family: system-ui;
+    margin-left: 4px;
+}
+/* Description on cards */
+.container__figcaption {
+    padding-top: 1%;
+    padding-left: 5%;
     font-size: 10px;
-    font-weight: 300;
     font-family: var(--primary-font);
+    font-weight: 300;
     color: var(--color-primary);
+}
 
-}
-/* Container text, Welcome to Mexico */
-.figure-Mexico__container {
-    padding-top: 8px;
-    padding-right: 62px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, Mexico */
-.figure-mexiconumber__logo {
-    transform: translate(103px, 175px);
-    position: absolute;
-}
-/* Eye logo, Mexico */
-.figure-mexicoeye__logo {
-    cursor: pointer;
-    transform: translate(75px, 170px);
-    position: absolute;
-}
-/* Container text, At the street Japan*/
-.figure-japan__container {
-    padding-top: 8px;
-    padding-right: 58px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, At the street Japan */
-.figure-japannumber__logo {
-    transform: translate(112px, 175px);
-    position: absolute;
-}
-/* Eye logo, At the street Japan */ 
-.figure-japaneye__logo {
-    cursor: pointer;
-    transform: translate(90px, 170px);
-    position: absolute;
-}
-/* Container text, Firefighters save the school */
-.figure-fire__container {
-    padding-top: 8px;
-    padding-right: 50px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, Firefighters */
-.figure-fireNumber__logo {
-    transform: translate(110px, 174px);
-    position: absolute;
-}
-/* Eye logo, Firefighters */
-.figure-fireeye__logo {
-    cursor: pointer;
-    transform: translate(88px, 170px);
-    position: absolute;
-}
-/* Container text, Know us tonight */
-.figure-know__container {
-    padding-top: 8px;
-    padding-right: 57px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, Know us tonight */
-.figure-knownumber__logo {
-    transform: translate(103px, 175px);
-    position: absolute;
-}
-/* Eye logo, know us tonight */
-.figure-knoweye__logo {
-    cursor: pointer;
-    transform: translate(75px, 170px);
-    position: absolute;
-}
-/* Container text, Yuki in Japan */
-.figure-yuki__container {
-    padding-top: 8px;
-    padding-right: 70px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, Yuki in Japan */
-.figure-yukinumber__logo {
-    transform: translate(103px, 175px);
-    position: absolute;
-}
-/* Eye logo, Yuki in Japan */
-.figure-yukieye__logo {
-    cursor: pointer;
-    transform: translate(75px, 170px);
-    position: absolute;
-}
-/* Container text, Colombian sausages */
-.figure-colombia__container {
-    padding-top: 8px;
-    padding-right: 57px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, Colombian sausages */
-.figure-colombianumber__logo {
-    transform: translate(103px, 175px);
-    position: absolute;
-}
-/*Eye logo, Colombian sausages */
-.figure-colombiaeye__logo {
-    cursor: pointer;
-    transform: translate(70px, 170px);
-    position: absolute;
-}
-/* Container text, Meet boon Alemania */
-.figure-meet__container {
-    padding-top: 8px;
-    padding-right: 62px;
-
-    display: flex;
-    flex-direction: column;
-}
-/* Number logo, Meet boon Alemania */
-.figure-meetnumber__logo {
-    transform: translate(112px, 175px);
-    position: absolute;
-}
-/* Eye logo, Meet boon Alemania */
-.figure-meeteye__logo {
-    cursor: pointer;
-    transform: translate(90px, 170px);
-    position: absolute;
-}
 /* End of page */ 
 .footer {
     width: 100%;
-    margin-top: 21px;
-    padding: 20px;
+    margin-top: 2%;
+    padding: 1%;
 
     display: flex;
     flex-direction: row;

@@ -16,25 +16,33 @@
 body {
     background: var(--bg-primary);
 }
-/* logo create accound */
+/* Header */
 .header {
-    transform: translate(1516px, 28px);
-    width: 32px;
+   width: 100%;
+   margin-top: 2%;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+/* Login logo */
+.header__span {
+    margin-right: 2%;
 }
 /* Main container */
 .form-register {
-    width: 440px;
-    padding: 30px;
+    width: 30%;
+    padding: 2%;
     border-radius: 8px;
     font-family:  var(--primary-font);
     color: var(--color-primary);
     background: var(--bg-secundary);
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 10%;
 }
 /* Container inputs */
 .register__container {
-    margin-top: 30px;
+    margin-top: 8%;
     border: none;
     
     display: flex;
@@ -52,14 +60,14 @@ body {
 .register__container__label {
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 8px;
+    margin-bottom: 2%;
     font-family: var(--primary-font);
 }
 /* Inputs */
 .register__container__controls {
-    margin-bottom: 30px;
+    margin-bottom: 10%;
     width: 100%;
-    padding: 8px;
+    padding: 2%;
     border: var(--border-color);
     border-radius: 6px;
     background: var(--bg-secundary);
@@ -80,18 +88,18 @@ body {
     font-size: 18px;
     border: none;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 4%;
+    margin-bottom: 2%;
     border-radius: 8px;
     background: var(--bg-third);
     padding: 8px;
     font-family: var(--primary-font);
 }
-/* End of page */
+/* End of page */ 
 .footer {
     width: 100%;
-    margin-top: 150px;
-    padding: 20px;
+    margin-top: 10%;
+    padding: 1%;
 
     display: flex;
     flex-direction: row;
