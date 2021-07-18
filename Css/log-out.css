@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root {
+    --bg-primary: #BCF3ED;
+    --bg-secondary: white;
+    --primary-font: 'Roboto', sans-serif;
+    --color-primary: #3C8893;
+    --box-shadow: 0px 3px 0px #B3B9B5;
+}
+
+body {
+    background: var(--bg-primary);
+}
+/* Header */
+.header {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* Login logo, container */
+.header__span {
+    width: 32%;
+    position: absolute;
+    margin-top: 1%;
+    transform: translate(100%, 26%);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/* Input search */
+.icono-placeholder__header{
+    margin-top: 24px;
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Input search placeholder */
+.icono-placeholder__header::placeholder {
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+}
+/* Search logo, input */
+.search__header {
+    transform: translate(35px, 13px);
+}
+/* Main */
+.main {
+    width: 100%;
+}
+/* Article */
+.main__article {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* Container cards */
+.article__figure {
+    width: 22%;
+    height: 254px;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 3%;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Container of play and image */
+.figure__container {
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Links redirection */
+.container-link {
+    position: absolute;
+    text-decoration: none;
+}
+/* Play logo */
+.link__image-play {
+    cursor: pointer;
+}
+/* Images of content */
+.container-image {
+    width: 95%;
+    height: 180px;
+}
+/* Container of titles, eyes and numbers */
+.figure-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Title of cards */
+.container-figcaption {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    font-weight: 700;
+}
+/* Container of eyes and numbers */
+.container__div {
+    width: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Eyes logos */
+.div__logo {
+    cursor: pointer;
+}
+/* Numbers */
+.div__text {
+    font-size: 11px;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    margin-left: 4px;
+}
+/* Description on cards */
+.container__figcaption {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 10px;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+/* End of page */ 
+.footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 12px;
+    font-weight: 200;
+    font-family: var(--primary-font);
+}

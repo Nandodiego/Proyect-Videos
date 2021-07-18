@@ -1,0 +1,244 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root {
+    --bg-primary: #BCF3ED;
+    --bg-secundary: #403140;
+    --bg-third: white;
+    --primary-font: 'Roboto', sans-serif;
+    --color-primary: #3C8893;
+    --box-shadow: 0px 3px 0px #B3B9B5;
+}
+
+body {
+    width: 100%;
+    background: var(--bg-primary);
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header */
+.header {
+    width: 16%;
+    padding: 10px;
+    background: var(--bg-secundary);
+}
+/* Figure Container */
+.header__figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* Image of Perfil, Nebrazka Rodriguez */
+.figure__Image {
+    cursor: pointer;
+}
+/* Figure text */
+.figure__p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    padding-left: 8px;
+}
+/* Header nav */
+.header__nav {
+    width: 100%;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* Nav container */
+.nav__container {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+/* containers logos */
+.container__image {
+    cursor: pointer;
+}
+/* Container link */ 
+.container__link {
+    text-decoration: none;
+}
+/* texts of logos */
+.link__p {
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Container of log out */
+.nav-container {
+    margin-top: 410px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Text of log out */
+.link__text {
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Main */
+.main {
+    width: 84%;
+}
+/* Main article */
+.main__article {
+    width: 39%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+}
+/* Search logo */
+.article__image {
+    transform: translate(35px, 13px);
+}
+/* Input search */
+.article__input{
+    margin-top: 24px;
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Input search placheholder */
+.article__input::placeholder {
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+}
+/* Main article cards */
+.main-article {
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 2%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Container cards */
+.article__figure {
+    width: 31%;
+    height: 254px;
+    background: var(--bg-third);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 3%;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Container of play and image */
+.figure__container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Links redirection */
+.container-link {
+    position: absolute;
+    text-decoration: none;
+}
+/* Play logo */
+.link__image-play {
+    padding-left: 10px;
+}
+/* Images of content */
+.container-image {
+    width: 95%;
+    height: 180px;
+}
+/* Container of titles, eyes and numbers */
+.figure-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Title of cards */
+.container-figcaption {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    font-weight: 700;
+}
+/* Container of eyes and numbers */
+.container__div {
+    width: 20%;
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+/* Eyes logos */
+.div__logo {
+    cursor: pointer;
+}
+/* Numbers */
+.div__text {
+    font-size: 11px;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-family: system-ui;
+    margin-left: 4px;
+}
+/* Description on cards */
+.container__figcaption {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 10px;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--color-primary);
+}
+/* End of page */
+.main__footer {
+    padding: 10px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.footer__text {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 200;
+    font-family: var(--primary-font);
+}
+
+
