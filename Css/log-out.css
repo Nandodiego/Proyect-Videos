@@ -23,12 +23,13 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-/* Login logo */
+/* Login logo, container */
 .header__span {
     width: 32%;
     position: absolute;
     margin-top: 1%;
     transform: translate(100%, 26%);
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -38,15 +39,16 @@ body {
     margin-top: 24px;
     width: 500px;
     height: 40px;
-    font-weight: 100;
     font-size: 18px;
     border-radius: 8px;
     border: none;
     padding: 10px;
+    padding-left: 40px;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
 }
 /* Input search placeholder */
 .icono-placeholder__header::placeholder {
-    padding-left: 33px;
     font-family: var(--primary-font);
     color: var(--color-primary);
 }

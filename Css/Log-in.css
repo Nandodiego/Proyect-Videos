@@ -24,7 +24,6 @@ body {
 /* Header */
 .header {
     width: 16%;
-
     padding: 10px;
     background: var(--bg-secundary);
 }
@@ -120,16 +119,17 @@ body {
     margin-top: 24px;
     width: 500px;
     height: 40px;
-    font-weight: 100;
     font-size: 18px;
     border-radius: 8px;
     border: none;
     padding: 10px;
+    padding-left: 40px;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
 }
 /* Input search placheholder */
 .article__input::placeholder {
     color: var(--color-primary);
-    padding-left: 33px;
     font-family: var(--primary-font);
 }
 /* Main article cards */
@@ -158,13 +158,13 @@ body {
 /* Container of play and image */
 .figure__container {
     width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    margin: 0 auto;
-    margin-top: 10px;
 }
 /* Links redirection */
 .container-link {
@@ -185,6 +185,7 @@ body {
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
