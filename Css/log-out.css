@@ -83,29 +83,33 @@ body {
 }
 /* Container of play and image */
 .figure__container {
-    margin: 0 auto;
+    width: 100%;
     margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 /* Links redirection */
 .container-link {
+    position: absolute;
     text-decoration: none;
 }
 /* Play logo */
 .link__image-play {
-    padding-left: 10px;
-    position: absolute;
-    transform: translate(100%, 50%);
+    cursor: pointer;
 }
 /* Images of content */
 .container-image {
-    width: 275px;
-    margin-top: 5px;
+    width: 95%;
+    height: 180px;
 }
 /* Container of titles, eyes and numbers */
 .figure-container{
     width: 90%;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,6 +128,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
 }
 /* Eyes logos */
 .div__logo {
@@ -134,13 +139,13 @@ body {
     font-size: 11px;
     color: var(--color-primary);
     font-weight: 700;
-    font-family: system-ui;
+    font-family: var(--primary-font);
     margin-left: 4px;
 }
 /* Description on cards */
 .container__figcaption {
-    padding-top: 1%;
-    padding-left: 5%;
+    padding-top: 5px;
+    padding-left: 15px;
     font-size: 10px;
     font-family: var(--primary-font);
     font-weight: 300;
@@ -150,8 +155,8 @@ body {
 /* End of page */ 
 .footer {
     width: 100%;
-    margin-top: 2%;
-    padding: 1%;
+    margin-top: 20px;
+    padding: 20px;
 
     display: flex;
     flex-direction: row;

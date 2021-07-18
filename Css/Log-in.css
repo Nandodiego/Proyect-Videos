@@ -30,8 +30,6 @@ body {
 }
 /* Figure Container */
 .header__figure {
-    width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -52,7 +50,7 @@ body {
 /* Header nav */
 .header__nav {
     width: 100%;
-    margin-top: 16%;
+    margin-top: 30px;
 
     display: flex;
     flex-direction: column;
@@ -60,8 +58,7 @@ body {
 }
 /* Nav container */
 .nav__container {
-    width: 60%;
-    margin-bottom: 10%;
+    margin-bottom: 30px;
 
     display: flex;
     flex-direction: row;
@@ -87,7 +84,6 @@ body {
 }
 /* Container of log out */
 .nav-container {
-    width: 60%;
     margin-top: 410px;
 
     display: flex;
@@ -96,7 +92,6 @@ body {
 }
 /* Text of log out */
 .link__text {
-    height: 40px;
     line-height: 40px;
     padding-left: 10px;
     font-size: 16px;
@@ -162,29 +157,34 @@ body {
 }
 /* Container of play and image */
 .figure__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 auto;
     margin-top: 10px;
 }
 /* Links redirection */
 .container-link {
+    position: absolute;
     text-decoration: none;
 }
 /* Play logo */
 .link__image-play {
     padding-left: 10px;
-    position: absolute;
-    transform: translate(100%, 50%);
 }
 /* Images of content */
 .container-image {
-    width: 275px;
-    margin-top: 5px;
+    width: 95%;
+    height: 180px;
 }
 /* Container of titles, eyes and numbers */
 .figure-container{
     width: 90%;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -201,6 +201,7 @@ body {
     width: 20%;
     
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
     align-items: center;
 }
@@ -218,8 +219,8 @@ body {
 }
 /* Description on cards */
 .container__figcaption {
-    padding-top: 1%;
-    padding-left: 5%;
+    padding-top: 5px;
+    padding-left: 15px;
     font-size: 10px;
     font-family: var(--primary-font);
     font-weight: 300;
@@ -227,8 +228,9 @@ body {
 }
 /* End of page */
 .main__footer {
-    padding: 2%;
+    padding: 10px;
     width: 100%;
+    margin-top: 35px;
 }
 
 .footer__text {

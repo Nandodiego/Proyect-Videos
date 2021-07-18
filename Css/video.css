@@ -10,6 +10,7 @@
     --bg-third: white;
     --primary-font: 'Roboto', sans-serif;
     --color-primary: #3C8893;
+    --color-placeholder: black ;
     --box-shadow: 0px 3px 0px #B3B9B5;
 }
 
@@ -30,8 +31,6 @@ body {
 }
 /* Figure Container */
 .header__figure {
-    width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -52,7 +51,7 @@ body {
 /* Header nav */
 .header__nav {
     width: 100%;
-    margin-top: 16%;
+    margin-top: 30px;
 
     display: flex;
     flex-direction: column;
@@ -60,8 +59,7 @@ body {
 }
 /* Nav container */
 .nav__container {
-    width: 60%;
-    margin-bottom: 10%;
+    margin-bottom: 30px;
 
     display: flex;
     flex-direction: row;
@@ -87,7 +85,6 @@ body {
 }
 /* Container of log out */
 .nav-container {
-    width: 60%;
     margin-top: 379px;
 
     display: flex;
@@ -105,23 +102,12 @@ body {
 }
 /* Main */
 .main {
-  width: 84%;
-}
-/* Main article cards */
-.main-article {
-    width: 72%;
-    margin: 0 auto;
-    margin-top: 2%;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 84%;
 }
 /* Container cards */
 .main__figure {
     width: 63%;
-    height: 52%;
+    height: 535px;
     background: var(--bg-third);
     border-radius: 8px;
     margin: 0 auto;
@@ -133,17 +119,17 @@ body {
 /* Container of play and image */
 .figure__container {
     margin: 0 auto;
-    margin-top: 1%;
-}
-/* Links redirection */
-.container-link {
-    width: 52%;
-    height: 52%;
-    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+/* Links redirection */
+.container-link {
+    position: absolute;
     text-decoration: none;
 }
 /* Play logo */
@@ -152,13 +138,14 @@ body {
 }
 /* Images of content */
 .container__img {
-    width: 100%;
+    width: 97%;
+    height: 418px;
 }
 /* Container of titles, eyes and numbers */
 .figure-container{
     width: 96%;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -201,14 +188,14 @@ body {
 }
 /* Description on cards */
 .container__figcaption {
-    padding-top: 1%;
-    padding-left: 2%;
+    padding-top: 10px;
+    padding-left: 20px;
     font-size: 14px;
     font-family: var(--primary-font);
     font-weight: 300;
     color: var(--color-primary);
 }
-/* Article */
+/* Article of comments */
 .main__article {
     width: 63%;
     margin: 0 auto;
@@ -217,28 +204,35 @@ body {
     display: flex;
     flex-direction: column;
 }
-/* Container of main comment */
-.article__container {
-    width: 60%;
+/* Form of comment */
+.article__form {
+    width: 50%;
+}
+/* Image of input comment */
+.form__image {
+    position: absolute;
+    transform: translate(10px, 10px);
+    cursor: pointer;
+}
+/* Container of input */
+.form__controls {
+    padding-left: 82px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    width: 500px;
     height: 80px;
+    border: none;
     border-radius: 8px;
     background: var(--bg-third);
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
-/* Images of comments */
-.div__image {
-    cursor: pointer;
-    padding-left: 2%;
-}
-/* Text of comments */
-.div-text {
-    font-size: 16px;
-    font-weight: 200;
-    font-family: var(--primary-font);
-    padding-left: 2%;
+/* Placeholder of input */
+.form__controls::placeholder {
+    color: var(--color-placeholder);
 }
 /* Container of secundarys comments */
 .article-container {
@@ -249,7 +243,18 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
+/* Images of comments */
+.div__image {
+    cursor: pointer;
+    padding-left: 10px;
+}
+/* Text of comments */
+.div-text {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: var(--primary-font);
+    padding-left: 10px;
+}
 /* End of page */
 .main__footer {
     width: 100%;

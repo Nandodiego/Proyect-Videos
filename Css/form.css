@@ -32,7 +32,7 @@ body {
 /* Main container */
 .form-register {
     width: 30%;
-    padding: 2%;
+    padding: 35px;
     border-radius: 8px;
     font-family:  var(--primary-font);
     color: var(--color-primary);
@@ -42,7 +42,7 @@ body {
 }
 /* Container inputs */
 .register__container {
-    margin-top: 8%;
+    margin-top: 30px;
     border: none;
     
     display: flex;
@@ -60,14 +60,17 @@ body {
 .register__container__label {
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 2%;
+    margin-bottom: 8px;
     font-family: var(--primary-font);
 }
 /* Inputs */
 .register__container__controls {
-    margin-bottom: 10%;
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    margin-bottom: 30px;
     width: 100%;
-    padding: 2%;
+    padding: 8px;
     border: var(--border-color);
     border-radius: 6px;
     background: var(--bg-secundary);
@@ -75,7 +78,6 @@ body {
 /* Inputs text */
 .register__container__controls::placeholder {
     color: var(--color-primary);
-    font-size: 18px;
     line-height: 28px;
 }
 /* Link Input button */
@@ -88,8 +90,8 @@ body {
     font-size: 18px;
     border: none;
     width: 100%;
-    margin-top: 4%;
-    margin-bottom: 2%;
+    margin-top: 35px;
+    margin-bottom: 15px;
     border-radius: 8px;
     background: var(--bg-third);
     padding: 8px;
